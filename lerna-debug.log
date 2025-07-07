@@ -3,13 +3,13 @@
 57 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
 57 error Progress: resolved 1, reused 0, downloaded 0, added 0
 57 error /Users/city/Desktop/webCode/monorepo/packages/yd-hooks:
-57 error  ERR_PNPM_FETCH_404  GET https://registry.npmjs.org/@yideng%2Fui: Not Found - 404
+57 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for yideng-ui@^1.0.4 while fetching it from https://registry.npmjs.org/
 57 error
 57 error This error happened while installing a direct dependency of /Users/city/Desktop/webCode/monorepo/packages/yd-hooks
 57 error
-57 error @yideng/ui is not in the npm registry, or you have no permission to fetch it.
+57 error The latest release of yideng-ui is "1.0.3".
 57 error
-57 error An authorization header was used: Bearer npm_[hidden]
+57 error If you need the full list of all 1 published versions run "$ pnpm view yideng-ui versions".
 57 error     at makeError (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
 57 error     at handlePromise (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
 57 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
