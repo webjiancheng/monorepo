@@ -14,9 +14,9 @@ importers:
 
   packages/yd-hooks:
     dependencies:
-      '@yideng/ui':
-        specifier: workspace:*
-        version: link:../yd-ui
+      yideng-ui:
+        specifier: ^1.0.4
+        version: 1.0.4
 
   packages/yd-ui: {}
 
@@ -2062,6 +2062,9 @@ packages:
   yargs@17.7.2:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
+
+  yideng-ui@1.0.4:
+    resolution: {integrity: sha512-FokOLuuOGZYiG2aZ10MBqk0kDl4sxJ4wrW5ffdj+4i2jxT+akiDPtoaYY2lOWDmixojPjndZ9V6WuD6eu8lZ+g==}
 
 snapshots:
 
@@ -4385,3 +4388,5 @@ snapshots:
       string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 21.1.1
+
+  yideng-ui@1.0.4: {}
