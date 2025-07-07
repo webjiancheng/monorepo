@@ -1,0 +1,9 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error 致命错误：无法访问 'https://github.com/webjiancheng/monorepo.git/'：LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+17 error     at makeError (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+17 error     at module.exports.sync (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:186:17)
+17 error     at Object.execSync (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:1758:31)
+17 error     at updateRemote (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:9383:18)
+17 error     at isBehindUpstream (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:9373:3)
+17 error     at VersionCommand.initialize (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:9667:57)
+17 error     at VersionCommand.runCommand (/Users/city/Desktop/webCode/monorepo/node_modules/.pnpm/lerna@8.2.3_encoding@0.1.13/node_modules/lerna/dist/index.js:3478:36)
