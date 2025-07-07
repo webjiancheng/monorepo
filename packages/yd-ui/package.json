@@ -1,5 +1,5 @@
 {
-  "name": "yideng-ui",
+  "name": "@yideng/ui",
   "version": "1.0.4",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "description": "",
   "gitHead": "95eb8dd5c58885ddd66dd28c0248fa78cf12593c",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://sims-firm-faces-pic.trycloudflare.com/"
   }
 }

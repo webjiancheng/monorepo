@@ -1,6 +1,8 @@
 {
   "name": "my-monorepo",
-  "private": true,
+  "description": "一个使用 Lerna 和 pnpm 构建的 monorepo 项目，支持本地 Verdaccio 私有仓库发包和管理。",
+  "author": "Your Name",
+  "license": "MIT",
   "workspaces": [
     "packages/*"
   ],
