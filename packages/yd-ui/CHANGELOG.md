@@ -11,6 +11,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## 1.0.4 (2025-07-07)
+
+**Note:** Version bump only for package yideng-ui
+
+
+
+
+
 ## [1.0.3](https://github.com/webjiancheng/monorepo/compare/@yideng/ui@1.0.1...@yideng/ui@1.0.3) (2025-07-07)
 
 **Note:** Version bump only for package @yideng/ui

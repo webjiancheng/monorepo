@@ -1,7 +1,6 @@
 57 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
 57 error Scope: all 3 workspace projects
 57 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
-57 error Progress: resolved 1, reused 0, downloaded 0, added 0
 57 error /Users/city/Desktop/webCode/monorepo/packages/yd-hooks:
 57 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for yideng-ui@^1.0.4 while fetching it from https://registry.npmjs.org/
 57 error
